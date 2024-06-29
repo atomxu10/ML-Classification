@@ -32,7 +32,7 @@ To ensure consistency in the logistic regression model, I standardized the predi
 In Figure 1, the point marked on the ROC curve is labeled with a threshold value of 0.485. The coordinates of this point are (0.802, 0.756), where 0.802 represents sensitivity and 0.756 represents specificity. The AUC value of 0.851 indicates that the model performs well in distinguishing between the two classes. A higher AUC value generally suggests better model performance. The optimal threshold for the logistic regression model appears to be around 0.485. This threshold provides a balanced trade-off between sensitivity (80.2%) and specificity (75.6%). By using this threshold, the model achieves a prediction accuracy of 78.01% on the testing set.
 
 <div align="center">
-    <img src="plot/roc_lr.png" width="800px" alt="Figure 1">
+    <img src="plot/roc_lr.png" width="100px" alt="Figure 1">
 </div>
 
 <p align="center">Figure 1: ROC (Logistic Regression)</p>
