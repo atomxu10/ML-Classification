@@ -1,4 +1,4 @@
-# Analysis of Different Machine Learning Models in Classification![Language](https://img.shields.io/badge/language-R-blue)
+# Analysis of Different Machine Learning Models in Classification  ![Language](https://img.shields.io/badge/language-R-blue)
 With the development of imaging technology, high-energy gamma particles can be recorded in the ground-based atmospheric Cherenkov gamma telescope. The particle streams can be distinguished from gamma and hadron streams due to different shower images (Bock et al., 2004). In this project, I will use different models for the classification problem to effectively distinguish between gamma particle (g) and hadron (h). then I will compare the prediction accuracy of different methods, choose a model that performs best, and predict the accuracy on the test set based on optimizing the model of that method. All corresponding codes (R Markdown) can be found in the xxxxxxx
 
 ## Content
