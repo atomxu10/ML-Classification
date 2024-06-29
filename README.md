@@ -37,9 +37,16 @@ In Figure 1, the point marked on the ROC curve is labeled with a threshold value
 
 <p align="center">Figure 1: ROC (Logistic Regression)</p>
 
-
-
 ### Discriminant analysis
+Discriminant Analysis is a statistical classification technique used to build a predictive model based on known category data, which is then used to classify new data. It is widely applied in pattern recognition, classification problems, and multivariate data analysis. The goal of discriminant analysis is to find a discriminant function or decision boundary that maximizes the separation between different classes.
+
+Discriminant Analysis typically includes two common types: Linear Discriminant Analysis (LDA) and Quadratic Discriminant Analysis (QDA).
+
+1. Linear Discriminant Analysis (LDA):
+- Assumption: Assumes that different classes have a normal distribution and share the same covariance matrix.
+- Characteristics: LDA seeks to find a linear combination of features that best separates the classes. It is most effective when the decision boundaries between classes are linear.
+- Decision Boundary: Linear.
+
 ### Decision trees and variants
 #### CART
 #### Random forest
