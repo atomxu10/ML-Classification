@@ -47,6 +47,12 @@ Discriminant Analysis typically includes two common types: Linear Discriminant A
 - Characteristics: LDA seeks to find a linear combination of features that best separates the classes. It is most effective when the decision boundaries between classes are linear.
 - Decision Boundary: Linear.
 
+2. Quadratic Discriminant Analysis (QDA):
+- Assumption: Assumes that different classes have a normal distribution but can have different covariance matrices.
+- Characteristics: QDA allows each class to have its own covariance matrix, providing more flexibility to model non-linear decision boundaries. It is useful when the decision boundaries between classes are quadratic or non-linear.
+- Decision Boundary: Quadratic (non-linear).
+
+
 ### Decision trees and variants
 #### CART
 #### Random forest
