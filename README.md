@@ -127,6 +127,7 @@ Neural networks can be used for data classification, prediction, and even unsupe
 <div align="center">
     <img src="plot/nnplot.png" width="500px" alt="Figure 7">
 </div>
+
 With the hidden layer set to 2 and other parameters defaulted, the resulting model prediction accuracy is 82.53%, with an AUC value of 0.825 (Figure 9).
 <div align="center">
     <img src="plot/roc_nn.png" width="250px" alt="Figure 9">
@@ -134,4 +135,11 @@ With the hidden layer set to 2 and other parameters defaulted, the resulting mod
 
 <p align="center">Figure 9: ROC (Neural networks) </p>
 
-## 
+## Conclusion
+After constructing and evaluating several classifiers, the results on the testing data are summarized in the rank table. The prediction accuracies of logistic regression, discriminant analysis, and decision tree models are all below 80%. In contrast, support vector machines (SVM), neural networks, random forests, and XGBoost exhibit superior performance, with prediction accuracies exceeding 80%.
+
+Among these models, the random forest classifier demonstrates the highest performance, achieving a prediction accuracy of 85.64% on the 25% test set and an Area Under the Curve (AUC) value of 0.861. Similarly, the support vector machine (SVM) also shows strong performance, with testing set accuracy and AUC values comparable to those of the random forest.
+
+<div align="center">
+    <img src="plot/rt.png" width="500px" alt="table">
+</div>
