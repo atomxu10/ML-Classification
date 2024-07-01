@@ -88,12 +88,16 @@ Random forests consist of multiple decision trees, each of which is not identica
 The error within the model becomes largely stable when trees are more than 100 (Figure 5). After debugging the parameters, this random forest model has the lowest prediction error rate when the parameter mtry=2, with an AUC of 0.861 (Figure 6) and a test set accuracy of 85.64%
 
 <div align="center">
-    <img src="plot/rf_plot.png" width="250px" alt="Figure 5">
+    <img src="plot/rfplot.png" width="250px" alt="Figure 5">
 </div>
 
-<p align="center">Figure 5: Figure 12: Random forest </p>
+<p align="center">Figure 5: Random forest </p>
 
+<div align="center">
+    <img src="plot/roc_rf.png" width="250px" alt="Figure 6">
+</div>
 
+<p align="center">Figure 6: ROC (Random forest) </p>
 #### XGBoost
 ### SVM
 ### Neural networks
