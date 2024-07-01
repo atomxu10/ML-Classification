@@ -60,8 +60,28 @@ The project will attempt two different types and compare the model's accuracy on
 
 <p align="center">Figure 2: ROC (LDA & QDA)</p>
 
+The Area Under the Curve (AUC) values for the LDA and QDA are 0.766 and 0.780, respectively. Furthermore, when evaluated on the testing set, the accuracy of the LDA classifier is 76.91%, whereas the QDA classifier achieves an accuracy of 78.91%.
+
 ### Decision trees and variants
+Decision trees are a type of supervised learning algorithm used for classification and regression tasks. They work by recursively splitting the data into subsets based on the feature that provides the maximum information gain or the minimum impurity. Each internal node represents a decision based on a feature, each branch represents the outcome of the decision, and each leaf node represents a class label or continuous value.
+
 #### CART
+The CART procedure is a method to produce binary trees given the training data, so at each node, there are two branches, one to the left and one to the right, until we reach the bottom of the tree, The final node will give us the prediction. in this model, the measures available used the Gini index.
+
+<div align="center">
+    <img src="plot/carttree.png" width="460px" alt="Figure 3">
+</div>
+
+<p align="center">Figure 3: CART(cp=0.01)</p>
+
+When cp (completeness parameter) = 0.01, we can get the tree with the small xerror (Figure 3), the AUC value of this classifier is 0.786 (Figure 4), and the accuracy of the testing set is at 78.61%
+
+<div align="center">
+    <img src="plot/ROC_CART.png" width="460px" alt="Figure 4">
+</div>
+
+<p align="center">Figure 4: ROC (CART) </p>
+
 #### Random forest
 #### XGBoost
 ### SVM
