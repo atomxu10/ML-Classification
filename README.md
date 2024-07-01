@@ -83,6 +83,16 @@ When cp (completeness parameter) = 0.01, we can get the tree with the small xerr
 <p align="center">Figure 4: ROC (CART) </p>
 
 #### Random forest
+Random forests consist of multiple decision trees, each of which is not identical. it works in the same way as bagging, which has improved accuracy and is less overfitting.
+
+The error within the model becomes largely stable when trees are more than 100 (Figure 5). After debugging the parameters, this random forest model has the lowest prediction error rate when the parameter mtry=2, with an AUC of 0.861 (Figure 6) and a test set accuracy of 85.64%
+
+<div align="center">
+    <img src="plot/rf_plot.png" width="250px" alt="Figure 5">
+</div>
+
+<p align="center">Figure 5: Figure 12: Random forest </p>
+
 #### XGBoost
 ### SVM
 ### Neural networks
