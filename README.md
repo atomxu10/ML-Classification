@@ -93,6 +93,7 @@ The error within the model becomes largely stable when trees are more than 100 (
 
 <p align="center">Figure 5: Figure 12: Random forest </p>
 
+
 #### XGBoost
 ### SVM
 ### Neural networks
