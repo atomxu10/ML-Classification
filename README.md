@@ -55,7 +55,7 @@ Discriminant Analysis typically includes two common types: Linear Discriminant A
 The project will attempt two different types and compare the model's accuracy on the test set to evaluate the differences between these types.
 
 <div align="center">
-    <img src="plot/roc_lda_qda.png" width="400px" alt="Figure 2">
+    <img src="plot/roc_lda_qda.png" width="460px" alt="Figure 2">
 </div>
 
 <p align="center">Figure 2: ROC (LDA & QDA)</p>
