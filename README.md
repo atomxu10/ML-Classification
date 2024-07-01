@@ -117,10 +117,21 @@ Support Vector Machines are another classification tool, that contains many para
 
 The best parameter selection is gamma=0.01 and cost=1. The accuracy of the testing set is 85.34% (Figure 8) and the AUC value is 0.852.
 <div align="center">
-    <img src="plot/roc_svm.png" width="250px" alt="Figure 7">
+    <img src="plot/roc_svm.png" width="250px" alt="Figure 8">
 </div>
 
 <p align="center">Figure 8: ROC (SVM) </p>
 
 ### Neural networks
+Neural networks can be used for data classification, prediction, and even unsupervised pattern recognition, with the most widely used being BP neural networks. 
+<div align="center">
+    <img src="plot/nnplot.png" width="350px" alt="Figure 7">
+</div>
+With the hidden layer set to 2 and other parameters defaulted, the resulting model prediction accuracy is 82.53%, with an AUC value of 0.825 (Figure 9).
+<div align="center">
+    <img src="plot/roc_nn.png" width="250px" alt="Figure 9">
+</div>
+
+<p align="center">Figure 9: ROC (Neural networks) </p>
+
 ## 
