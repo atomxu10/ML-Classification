@@ -77,7 +77,7 @@ The CART procedure is a method to produce binary trees given the training data, 
 When cp (completeness parameter) = 0.01, we can get the tree with the small xerror (Figure 3), the AUC value of this classifier is 0.786 (Figure 4), and the accuracy of the testing set is at 78.61%
 
 <div align="center">
-    <img src="plot/ROC_CART.png" width="460px" alt="Figure 4">
+    <img src="plot/ROC_CART.png" width="250px" alt="Figure 4">
 </div>
 
 <p align="center">Figure 4: ROC (CART) </p>
