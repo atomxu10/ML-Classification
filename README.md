@@ -110,5 +110,13 @@ an AUC value of 0.847(Figure 7) and an accuracy of 84.73% for the testing set.
 <p align="center">Figure 7: ROC (XGBoost) </p>
 
 ### SVM
+Support Vector Machines are another classification tool, that contains many parameters, and the choice of the kernel function will directly affect the accuracy. In this paper, after comparing the prediction accuracy of several kernel functions, the “radial” is the best choice. 
+<div align="center">
+    <img src="plot/roc_xgb.png" width="250px" alt="Figure 7">
+</div>
+
+
+The best parameter selection is gamma=0.01 and cost=1. The accuracy of the testing set is 85.34% (Figure 8) and the AUC value is 0.852.
+
 ### Neural networks
 ## 
