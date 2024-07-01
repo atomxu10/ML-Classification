@@ -125,7 +125,7 @@ The best parameter selection is gamma=0.01 and cost=1. The accuracy of the testi
 ### Neural networks
 Neural networks can be used for data classification, prediction, and even unsupervised pattern recognition, with the most widely used being BP neural networks. 
 <div align="center">
-    <img src="plot/nnplot.png" width="350px" alt="Figure 7">
+    <img src="plot/nnplot.png" width="500px" alt="Figure 7">
 </div>
 With the hidden layer set to 2 and other parameters defaulted, the resulting model prediction accuracy is 82.53%, with an AUC value of 0.825 (Figure 9).
 <div align="center">
