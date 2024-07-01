@@ -141,5 +141,5 @@ After constructing and evaluating several classifiers, the results on the testin
 Among these models, the random forest classifier demonstrates the highest performance, achieving a prediction accuracy of 85.64% on the 25% test set and an Area Under the Curve (AUC) value of 0.861. Similarly, the support vector machine (SVM) also shows strong performance, with testing set accuracy and AUC values comparable to those of the random forest.
 
 <div align="center">
-    <img src="plot/rt.png" width="500px" alt="table">
+    <img src="plot/rt.png" width="300px" alt="table">
 </div>
