@@ -85,7 +85,7 @@ When cp (completeness parameter) = 0.01, we can get the tree with the small xerr
 #### Random forest
 Random forests consist of multiple decision trees, each of which is not identical. it works in the same way as bagging, which has improved accuracy and is less overfitting.
 
-The error within the model becomes largely stable when trees are more than 100 (Figure 5). After debugging the parameters, this random forest model has the lowest prediction error rate when the parameter mtry=2, with an AUC of 0.861 (Figure 6) and a test set accuracy of 85.64%
+The error within the model becomes largely stable when trees are more than 100 (Figure 5). After debugging the parameters, this random forest model has the lowest prediction error rate when the parameter mtry=2, with an AUC of 0.861 (Figure 6) and a test set accuracy of 85.64%.
 
 <div align="center">
     <img src="plot/rfplot.png" width="400px" alt="Figure 5">
@@ -98,7 +98,17 @@ The error within the model becomes largely stable when trees are more than 100 (
 </div>
 
 <p align="center">Figure 6: ROC (Random forest) </p>
+
 #### XGBoost
+XGBoost internally implements the GBDT model and optimizes many algorithms in the model to achieve high accuracy and fast speed. In order to prevent overfitting, it only needs about 15 rounds to minimize the test mean square error after testing.
+
+an AUC value of 0.847(Figure 7) and an accuracy of 84.73% for the testing set.
+<div align="center">
+    <img src="plot/roc_xgb.png" width="250px" alt="Figure 7">
+</div>
+
+<p align="center">Figure 7: ROC (XGBoost) </p>
+
 ### SVM
 ### Neural networks
 ## 
