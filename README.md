@@ -29,7 +29,7 @@ To ensure consistency in the logistic regression model, I standardized the predi
 
 𝑌 = 0.372 + 1.556 Length + 0.321 Width + 0.180 Size − 0.307 Conc + 0.941 Conc1 + 0.014 Asym − 0.506 M3Long − 0.08 M3Trans + 1.319 Alpha + 0.078 Dist
 
-In Figure 1, the point marked on the ROC curve is labeled with a threshold value of 0.485. The coordinates of this point are (0.802, 0.756), where 0.802 represents sensitivity and 0.756 represents specificity. The AUC value of 0.851 indicates that the model performs well in distinguishing between the two classes. A higher AUC value generally suggests better model performance. The optimal threshold for the logistic regression model appears to be around 0.485. This threshold provides a balanced trade-off between sensitivity (80.2%) and specificity (75.6%). By using this threshold, the model achieves a prediction accuracy of 78.01% on the testing set.
+In Figure 1, the point marked on the ROC curve is labeled with a threshold value of 0.485. The coordinates of this point are (0.802, 0.756), where 0.802 represents sensitivity and 0.756 represents specificity. The AUC value of 0.851 indicates that the model performs well in distinguishing between the two classes. A higher AUC value generally suggests better model performance. The optimal threshold for the logistic regression model is around 0.485. This threshold provides a balanced trade-off between sensitivity (80.2%) and specificity (75.6%). By using this threshold, the model achieves a prediction accuracy of 78.01% on the testing set.
 
 <div align="center">
     <img src="plot/roc_lr.png" width="250px" alt="Figure 1">
@@ -52,6 +52,13 @@ Discriminant Analysis typically includes two common types: Linear Discriminant A
 - Characteristics: QDA allows each class to have its own covariance matrix, providing more flexibility to model non-linear decision boundaries. It is useful when the decision boundaries between classes are quadratic or non-linear.
 - Decision Boundary: Quadratic (non-linear).
 
+The project will attempt two different types and compare the model's accuracy on the test set to evaluate the differences between these types.
+
+<div align="center">
+    <img src="plot/roc_lda_qda.png" width="300px" alt="Figure 2">
+</div>
+
+<p align="center">Figure 2: ROC (LDA & QDA)</p>
 
 ### Decision trees and variants
 #### CART
