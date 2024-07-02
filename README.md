@@ -82,6 +82,7 @@ When cp (completeness parameter) = 0.01, we can get the tree with the small xerr
 </div>
 
 <p align="center">Figure 4: ROC (CART) </p>
+
 <a name="2-3-2"></a>
 #### Random forest
 
@@ -100,6 +101,7 @@ The error within the model becomes largely stable when trees are more than 100 (
 </div>
 
 <p align="center">Figure 6: ROC (Random forest) </p>
+
 <a name="2-3-3"></a>
 #### XGBoost
 XGBoost internally implements the GBDT model and optimizes many algorithms in the model to achieve high accuracy and fast speed. In order to prevent overfitting, it only needs about 15 rounds to minimize the test mean square error after testing.
@@ -124,6 +126,7 @@ The best parameter selection is gamma=0.01 and cost=1. The accuracy of the testi
 </div>
 
 <p align="center">Figure 8: ROC (SVM) </p>
+
 <a name="2-5"></a>
 ### Neural networks
 
@@ -139,6 +142,7 @@ With the hidden layer set to 2 and other parameters defaulted, the resulting mod
 
 <p align="center">Figure 9: ROC (Neural networks) </p>
 <a name="3"></a>
+
 ## Conclusion
 After constructing and evaluating several classifiers, the results on the testing data are summarized in the rank table. The prediction accuracies of logistic regression, discriminant analysis, and decision tree models are all below 80%. In contrast, support vector machines (SVM), neural networks, random forests, and XGBoost exhibit superior performance, with prediction accuracies exceeding 80%.
 
