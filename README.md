@@ -143,7 +143,7 @@ With the hidden layer set to 2 and other parameters defaulted, the resulting mod
 <p align="center">Figure 9: ROC (Neural networks) </p>
 <a name="3"></a>
 
-## Conclusion
+## Discussion
 After constructing and evaluating several classifiers, the results on the testing data are summarized in the rank table. The prediction accuracies of logistic regression, discriminant analysis, and decision tree models are all below 80%. In contrast, support vector machines (SVM), neural networks, random forests, and XGBoost exhibit superior performance, with prediction accuracies exceeding 80%.
 
 Among these models, the random forest classifier demonstrates the highest performance, achieving a prediction accuracy of 85.64% on the 25% test set and an Area Under the Curve (AUC) value of 0.861. Similarly, the support vector machine (SVM) also shows strong performance, with testing set accuracy and AUC values comparable to those of the random forest.
